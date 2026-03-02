@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projeto de Testes — Swag Labs
 
 ## Sistema Testado
@@ -62,3 +63,7 @@ Abordagem de testes baseada em risco, priorizando funcionalidades essenciais par
 ## Autor
 Bruno Oliveira  
 QA Engineer — foco em qualidade, automação e análise de comportamento de sistemas
+=======
+# PortifolioQa
+Portfólio de QA contendo testes automatizados e validações de API aplicados em cenários simulados, evidenciando habilidades práticas em qualidade de software.
+>>>>>>> 2c2f7c569a9f9ec0b2174263644cc62bf207eab0
