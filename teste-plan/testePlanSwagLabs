@@ -1,0 +1,90 @@
+Objetivo:
+    Validar o funcionamento das funcionalidades principais do sistema Swag Labs garantindo que fluxos críticos estejam operando corretamente e identificar falhas que impactem a experiência do usuário.
+
+Funcionalidades dentro do escopo:
+    Login
+    Ordenação de produtos
+    Fluxo de compra
+    Logout
+    Página “Sobre”
+
+Fora do escopo:
+    Testes de performance
+    Testes de carga
+    Testes de segurança
+    Testes mobile
+
+Serão utilizados:
+    Testes manuais funcionais
+    Testes exploratórios
+    Testes de regressão
+    Testes negativos
+    Testes de usabilidade básica
+
+Item        |	Valor
+Sistema     |	Swag Labs (web)
+Navegador	|   Chrome
+SO	        |   Windows
+Internet	|   Estável
+
+Fluxos a serem testados
+    Login
+    Validar:
+        login válido
+        login inválido
+        campos vazios
+        mensagens de erro
+
+    Ordenação de produtos
+    Validar filtros:
+        preço maior → menor
+        preço menor → maior
+        A → Z
+        Z → A
+
+    Compra
+    Validar:
+        adicionar produto
+        remover produto
+        acessar carrinho
+        preencher dados
+        finalizar compra
+        validação de confirmação de pedido
+
+    Logout
+    Validar:
+        clique menu
+        botão logout
+        redirecionamento para login
+
+    Página Sobre
+    Validar:
+        acesso pelo menu
+        carregamento da página
+        exibição de conteúdo
+
+Severidade de bugs
+    Crítica |	Bloqueia funcionalidade principal
+    Alta    |	Afeta funcionalidade importante
+    Média   |	Impacto parcial
+    Baixa   |	Visual ou detalhe
+
+Critérios de Entrada:
+    Sistema disponível
+    Ambiente estável
+    Usuário de teste válido
+
+Critérios de Saída:
+
+    Todos casos executados
+    Bugs críticos registrados
+    Evidências anexadas
+
+Ao final serão gerados:
+
+    Relatório de execução
+    Evidências de teste
+    Lista de bugs
+    Casos de teste documentados
+
+Estratégia baseada em risco priorizando fluxos críticos do usuário.
