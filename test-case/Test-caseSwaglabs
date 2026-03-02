@@ -1,0 +1,95 @@
+LOGIN:
+    Login válido:
+        Prioridade: Alta
+        Pré-condição: usuário válido cadastrado
+        Passos:
+            1. Acessar página de login
+            2. Inserir usuário válido
+            3. Inserir senha válida
+            4. Clicar em login
+
+        Resultado esperado:
+            Usuário é redirecionado para página de produtos
+
+    Login inválido:
+        Prioridade: Alta
+        Pré-condição: usuário válido cadastrado
+        Passos:
+            1. Acessar página de login
+            2. Inserir usuário inválido
+            3. Inserir senha inválido
+            4. Clicar em login
+
+        Resultado esperado:
+            Usuário não é redirecionado para página de produtos e recebe mensagem de erro 
+
+
+    Campos vazios:
+        Prioridade: Média
+        Passos:
+            1. Clicar em login sem preencher campos
+
+        Resultado esperado:
+            Sistema impede login e apresenta aviso
+
+Ordenação:
+    Ordenar preço maior -> menor :
+        Prioridade: Média
+        Passos:
+            1. Logar no sistema
+            2. Selecionar filtro preço maior -> menor
+
+        Resultado esperado:
+            Produtos aparecem ordenados do maior para o menor preço
+
+    Ordenação A -> z :
+        Prioridade: Média
+        Passos:
+            1. Logar no sistema
+            2. Selecionar filtro preço a -> z
+
+        Resultado esperado:
+            Produtos aparecem em ordem alfabética crescente
+        
+Compra:
+    Adicionar Produto ao carrinho: 
+        Prioridade: Alta
+        Passos:
+            1. Logar
+            2. Clicar em adicionar produto
+
+        Resultado esperado:
+            Produto aparece no carrinho
+    
+    Finalizar compra:
+        Prioridade: Alta
+        Passos:
+            1. Adicionar produto
+            2. Ir para carrinho
+            3. Clicar checkout
+            4. Preencher dados
+            5. Finalizar
+
+        Resultado esperado:
+            Compra finalizada com mensagem de confirmação
+
+Logout:
+    Logout:
+        Prioridade: Alta
+        Passos:
+            1. Logar
+            2. Abrir menu
+            3. Clicar logout
+
+        Resultado esperado:
+            Usuário retorna para tela de login
+    
+Página Sobre:
+    Acessar página Sobre:
+        Prioridade: Baixa
+        Passos:
+            1. Abrir menu
+            2. Clicar em Sobre
+
+        Resultado esperado:
+            Página informativa é exibida

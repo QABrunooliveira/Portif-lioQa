@@ -1,0 +1,79 @@
+Observação: Bugs simulados para fins de demonstração
+
+    Bug — Ordenação incorreta de preço
+
+    Severidade: Média
+    Prioridade: Alta
+    Ambiente: Chrome / Windows
+
+    Cenário Esperado:
+
+    Dado que o usuário está logado
+    Quando seleciona ordenação "Preço menor → maior"
+    Então os produtos deveriam aparecer do menor para o maior valor
+    
+    Cenário Atual:
+
+    Dado que o usuário está logado
+    Quando seleciona ordenação "Preço menor → maior"
+    Então os produtos não aparecem do menor para o maior valor
+
+    Resultado esperado:
+    Lista ordenada corretamente
+
+    Resultado atual:
+    Ordem inconsistente
+
+
+
+    
+    Bug — Carrinho não atualiza quantidade
+
+    Severidade: Média
+    Prioridade: Alta
+    Ambiente: Chrome / Windows
+
+    Cenário Esperado:
+
+    Dado que o usuário está logado
+    Quando adiciona um produto ao carrinho duas vezes
+    Então a quantidade do produto deveria ser exibida como 2
+
+    Cenário Atual:
+
+    Dado que o usuário está logado
+    Quando adiciona um produto ao carrinho duas vezes
+    Então a quantidade exibida permanece como 1
+
+    Resultado esperado:
+    Quantidade atualizada corretamente
+
+    Resultado atual:
+    Quantidade não é atualizada
+
+
+
+
+    Bug — Filtro A -> Z ordena incorretamente
+
+    Severidade: Baixa
+    Prioridade: Média
+    Ambiente: Chrome / Windows
+
+    BDD Esperado:
+
+    Dado que o usuário está logado
+    Quando seleciona ordenação "A -> Z"
+    Então os produtos deveriam aparecer em ordem alfabética crescente
+
+    BDD Atual:
+
+    Dado que o usuário está logado
+    Quando seleciona ordenação "A -> Z"
+    Então alguns produtos aparecem fora da ordem alfabética
+
+    Resultado esperado:
+    Lista em ordem alfabética correta
+
+    Resultado atual:
+    Ordem inconsistente
