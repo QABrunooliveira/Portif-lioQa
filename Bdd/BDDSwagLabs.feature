@@ -18,7 +18,7 @@ Feature: SwagLabs
         E deve visualizar mensagem de erro
 
 
-    Scenario: Login com campos vazios
+    Scenario: Login com campos vazios 
         Dado que o usuário está na tela de login
         Quando clica em login sem preencher os campos
         Então o sistema deve impedir o login
